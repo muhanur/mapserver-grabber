@@ -1,9 +1,21 @@
 # mapserver-grabber
 Download geojson file from esri MapServer
 
-# How to
+## Configuration you need to change
 Change url
-Change output file name
+
+```
+url = "https://host/arcgis/rest/services/directory/layer/MapServer/0/"
+
+```
 Change query parameter
 
-Run
+```
+query = "1=1"
+```
+
+Change output directory
+
+```
+output_dir = "C:/ESRI/"
+```
